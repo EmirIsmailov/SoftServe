@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  app01:
+    image: hello2
+  app02:
+    image: bye
+    volumes:
+      - ./app:/usr/share/nginx/html
